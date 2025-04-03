@@ -9,14 +9,19 @@
 	<body>
 		<header>Best Webpage Ever!</header>
 
-		<p>Click the button to say hi.</p>
-		<button onClick="helloWorld()">Hello!</button>
+		<div>
+			<p>Click the button to say hi.</p>
+			<button onClick="toggleElement()">Hello!</button>
+			<span class="hello" id="showElement">Hello! Nice to meet you.</span>
+		</div>
+
 		<p>Do you want to see a really cool cat?</p>
 		<div>
-			<img src="images/pancake_life.jpg" class="cat" id="show" />
-			<button onClick="showElement()">Show me cakes!</button>
+			<button onClick="toggleImage()">Show me cakes!</button>
+			<img src="images/pancake_life.jpg" class="cat" id="showImage" />
 		</div>
 	</body>
-	<script src="js/showElement.js"></script>
+	<script src="js/toggleImage.js"></script>
+	<script src="js/toggleElement.js"></script>
 	<script src="js/helloWorld.js"></script>
 </html>

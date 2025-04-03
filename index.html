@@ -2,18 +2,21 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Project Webpage</title>
-		<script src="js/helloWorld.js"></script>
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
 		<header>Best Webpage Ever!</header>
 
 		<p>Click the button to say hi.</p>
-		<p>This is a sample text</p>
-		<button onClick="helloWorld()">Click Here</button>
+		<button onClick="helloWorld()">Hello!</button>
 		<p>Do you want to see a really cool cat?</p>
-		<img src="images/pancake_life_(1).jpg" />
+		<div>
+			<img src="images/pancake_life.jpg" class="cat" id="show" />
+			<button onClick="showElement()">Show me cakes!</button>
+		</div>
 	</body>
+	<script src="js/showElement.js"></script>
+	<script src="js/helloWorld.js"></script>
 </html>
